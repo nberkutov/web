@@ -1,0 +1,19 @@
+.sitename {
+    color: #000000;
+    font: 400 30px / 24px Inconsolata;
+}
+
+nav {
+    
+}
+nav ul {
+    display: inline-block;
+}
+
+nav li {
+    display: inline;
+    color: #626262;
+    font: 400 14px / 24px Playfair Display;
+    text-transform: uppercase;
+    margin-left: 10%;
+}
