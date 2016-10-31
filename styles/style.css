@@ -1,19 +1,141 @@
+h1 {
+    color: #626262;
+    font: 400 30px Playfair Display;
+}
+
+h2 {
+    color: #626262;
+    font: 400 24px / 20px Playfair Display;
+}
+
+h3 {
+    color: #b4ad9e;
+    font: 300 14px Arial; 
+    text-transform: uppercase;
+}
+
+p {
+    color: #626262;
+    font: 400 14px / 24px Playfair Display;
+}
+
+body {
+    font-family: PlayFair Display;
+}
+
+header {
+    margin-top: 69px;
+    margin-bottom: 77px;
+    margin-left: 5.8%;
+    width: 88.4%;
+}
+
+main {
+    margin-left: 5.8%; 
+    width: 88.4%;
+}
+
+section {
+    margin-top: 81px;
+    margin-left: 6.6%;
+    width: 55.1%;
+    display: inline-block;
+}
+section img {
+    width: inherit;
+}
+
+section p {
+    margin-bottom: 64px;
+}
+
+q {
+    color: #626262;
+    font: italic 14px / 24px Playfair Display;
+   
+}
+article img {
+    margin-bottom: 50px;
+}
+article .socials{
+    float: right;
+}
+
 .sitename {
     color: #000000;
     font: 400 30px / 24px Inconsolata;
+    width: 9.9%;;
 }
 
-nav {
-    
+header ul {
+    float: right;
 }
-nav ul {
-    display: inline-block;
-}
-
-nav li {
+header li {
     display: inline;
     color: #626262;
     font: 400 14px / 24px Playfair Display;
     text-transform: uppercase;
+    margin-left: 121px;
+}
+.cover-image {
+    width: 100%;
+}
+
+.cover-image img {
+    width: 100%;
+}
+
+.about {
+    margin-bottom: 52px;
+}
+
+aside {
+    width: 272px;
+    float: right;
+    display: inline-block;
+    margin-right: auto;
     margin-left: 10%;
+    margin-top: 98px;
+}
+
+
+article .socials span {
+    color: #b4ad9e;
+    font: 300 13px / 24px Arial;
+    display: inline-block;
+    margin-right: 23px;
+}
+    
+.socials img {
+    margin-right: 17px;
+}
+
+.top-posts li {
+    color: #626262;
+    font: 400 16px Playfair Display;
+    margin-bottom: 53px;
+}
+
+.top-posts span {
+    color: #b4ad9e;
+    font: 300 12px Arial;
+    text-transform: uppercase;
+}
+
+footer {
+    margin-top: 89px;
+    padding-top: 40px;
+    padding-bottom: 45px;
+    padding-left: 11.3%;
+    padding-right: 5.8%;
+    background-color: #d9d9d9;
+}
+
+footer a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer .socials {
+    float: right;
 }
