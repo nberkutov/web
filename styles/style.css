@@ -1,33 +1,42 @@
-h1 {
+.h1 {
     color: #626262;
     font: 400 30px Playfair Display;
 }
 
-h2 {
+.h2 {
     color: #626262;
     font: 400 24px / 20px Playfair Display;
 }
 
-h3 {
+.h3 {
     color: #b4ad9e;
     font: 300 14px Arial; 
     text-transform: uppercase;
 }
 
-p {
+.p {
     color: #626262;
     font: 400 14px / 24px Playfair Display;
+}
+
+.p_in-section {
+    margin-bottom: 64px;
 }
 
 body {
     font-family: PlayFair Display;
 }
 
-header {
+.header {
     margin-top: 69px;
     margin-bottom: 77px;
     margin-left: 5.8%;
     width: 88.4%;
+}
+
+.header__a {
+    text-decoration: none;
+    color: inherit;
 }
 
 main {
@@ -35,29 +44,30 @@ main {
     width: 88.4%;
 }
 
-section {
+.section {
     margin-top: 81px;
     margin-left: 6.6%;
     width: 55.1%;
     display: inline-block;
 }
-section img {
+.section__img {
     width: inherit;
 }
 
-section p {
-    margin-bottom: 64px;
+.section__p {
+    
 }
 
 q {
     color: #626262;
-    font: italic 14px / 24px Playfair Display;
-   
+    font: italic 14px / 24px Playfair Display;  
 }
-article img {
+
+.article__img {
     margin-bottom: 50px;
 }
-article .socials{
+
+.article__socials{
     float: right;
 }
 
@@ -67,10 +77,11 @@ article .socials{
     width: 9.9%;;
 }
 
-header ul {
+.nav__ul {
     float: right;
 }
-header li {
+
+.nav__li {
     display: inline;
     color: #626262;
     font: 400 14px / 24px Playfair Display;
@@ -85,11 +96,14 @@ header li {
     width: 100%;
 }
 
+.a-hover:hover {
+    color: #F2F2F2;
+}
 .about {
     margin-bottom: 52px;
 }
 
-aside {
+.aside {
     width: 272px;
     float: right;
     display: inline-block;
@@ -99,46 +113,57 @@ aside {
 }
 
 
-article .socials span {
+.article .socials span {
     color: #b4ad9e;
     font: 300 13px / 24px Arial;
     display: inline-block;
     margin-right: 23px;
 }
     
-.socials img {
+.socials__img {
     margin-right: 17px;
 }
 
-.top-posts li {
+.top-posts__li {
     color: #626262;
     font: 400 16px Playfair Display;
     margin-bottom: 53px;
 }
 
-.top-posts span {
+.top-posts__span {
     color: #b4ad9e;
     font: 300 12px Arial;
     text-transform: uppercase;
 }
 
-footer {
+.footer {
+    position: relative;
     margin-top: 89px;
-    padding-top: 40px;
-    padding-bottom: 45px;
-    padding-left: 11.3%;
-    padding-right: 5.8%;
+    height: 97px;
     background-color: #d9d9d9;
 }
 
-footer a {
+.footer__links {
     text-decoration: none;
     color: #000000;
     margin-right: 1.4%;
 }
 
-footer .socials {
+.footer__socials {
+    /*position: absolute;
+    /*float: right;
+    margin-right: 5.8%;
+    top: 50%;
+    transform: translateY(-50%);*/
     float: right;
+    height: 100%;
+    line-height: 100px;
+    white-space: nowrap;
+    margin-right: 5.8%;
+}
+
+.footer__socials__span {
+    margin-right: 21px;
 }
 
 .banner {
@@ -152,6 +177,20 @@ footer .socials {
     font-weight: 300;
 }
 
-.banner span {
+.banner__span {
     font-size: 48px;
+}
+
+.info {
+    margin-left: 12.5%;
+    height: 100%;
+    line-height: 100px;
+    white-space: nowrap;
+    margin-right: 5.8%;
+    display: inline-block;
+}
+
+.not-decorated {
+    text-decoration: none;
+    color: inherit;
 }
