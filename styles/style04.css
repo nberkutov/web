@@ -15,18 +15,18 @@
 .nav {
     display: inline-block;
     text-transform: uppercase;
-    font: 700 16px / 25px Lato;
-    color: #333333;
 }
 
 .nav__ul {
     display: inline-block;
-    align-content: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .nav__li {
     display: inline;
-    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .logo {
@@ -42,11 +42,13 @@
 }
 
 .search-icon {
+    position: relative;
+    top: 20px;
     display: inline-block;
-    margin-left: 40px;
+    float: right;
     width: 16px;
     height: 16px;
-    background-image: url(/src/images/Search.png);
+    background-image: url(/web/src/images/Search.png);
 }
 
 .main {
@@ -85,17 +87,17 @@
     background-repeat: no-repeat;
 }
 .post__button-travel {
-    background-image: url(/src/images/I-Do-Travel.png);
+    background-image: url(/web/src/images/I-Do-Travel.png);
 }
 
 .post__button-observe {
     width: 102px;
-    background-image: url(/src/images/I-Do-Observe.png);
+    background-image: url(/web/src/images/I-Do-Observe.png);
 }
 
 .post__button-reflect {
     width: 94px;
-    background-image: url(/src/images/I-Do-Reflect.png);
+    background-image: url(/web/src/images/I-Do-Reflect.png);
 }
 
 .post__article {
@@ -182,6 +184,8 @@
 
 .nav_top {
     float: right;
+    font: 700 16px / 25px Lato;
+    color: #333333;
 }
 
 .footer__section {
@@ -192,15 +196,16 @@
 }
 
 .nav_bottom {
-    display: block;
+    font: 700 16px / 25px Lato;
     position: relative;
-    color: #ffffff;
     left: 50%;
     transform: translateX(-50%);
+    margin-top: 50px;
 }
 
 .footer-logo {
     position: relative;
+    display: block;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -219,7 +224,6 @@
 }
 
 .nav__li__bottom {
-    color: #ffffff;
 }
 
 .body__hr {
@@ -266,6 +270,11 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+.article__hr_2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #5765b5;
+}
 
 .form__textarea {
     width:  696px;
@@ -288,6 +297,7 @@
     color: rgba(255, 255, 255, 0.4);
 }
 
+
 .copyrights {
     font: 400 13px / 23px Lato;
     color: rgba(255, 255, 255, 0.4);
@@ -306,25 +316,25 @@
 }
 
 .socials__icon_fb {
-    background-image: url(/src/images/facebook_w.png);
+    background-image: url(/web/src/images/facebook_w.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .socials__icon_tw {
-    background-image: url(/src/images/twitter_w.png);
+    background-image: url(/web/src/images/twitter_w.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .socials__icon_inst {
-    background-image: url(/src/images/instagram_w.png);
+    background-image: url(/web/src/images/instagram_w.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .socials__icon_pin {
-    background-image: url(/src/images/pinterest_w.png);
+    background-image: url(/web/src/images/pinterest_w.png);
     background-repeat: no-repeat;
     background-position: center;
     
@@ -339,4 +349,25 @@
 
 .socials {
     margin-top: 40px;
+}
+
+.nav__a_bottom {
+    color: #ffffff;
+}
+
+.search-icon_bottom {
+    background-image: url(/web/src/images/Search_w.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.post__article__p_mod2 {
+    font: 400 20px / 30px Lato;
+}
+
+.line { 
+    border-left: 4px solid #eeeeee; 
+    padding-left: 22px;
+    color: rgba(0, 0, 0, 0.4);
+    font: 400 20px / 30px Lato;
 }
