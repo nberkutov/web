@@ -5,7 +5,7 @@ var browserSync = require('browser-sync').create();
 
 var path = {
     css:  'styles/*.css',
-    html: 'templates/*.html',
+    html: 'templates/forms/*.html',
     dist: {
       css:  'dist/styles/',
       html: 'dist/'
@@ -16,7 +16,7 @@ gulp.task('default', ['build', 'serve', 'watch']);
 
 gulp.task('css', function () {
   return gulp.src(path.css)
-    .pipe(concat('style04.css'))
+    //.pipe(concat('style.css'))
     .pipe(gulp.dest(path.dist.css));
 });
 
