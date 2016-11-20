@@ -48,7 +48,7 @@
     float: right;
     width: 16px;
     height: 16px;
-    background-image: url(/web/src/images/Search.png);
+    background-image: url(../images/Search.png);
 }
 
 .main {
@@ -76,7 +76,6 @@
     width: 88px;
     height: 32px;
     right: -12px;
-    float: right;
     margin-top: 20px;
     display: inline-block;
     background-color: #5c6bc0;
@@ -87,17 +86,17 @@
     background-repeat: no-repeat;
 }
 .post__button-travel {
-    background-image: url(/web/src/images/I-Do-Travel.png);
+    background-image: url(../images/I-Do-Travel.png);
 }
 
 .post__button-observe {
     width: 102px;
-    background-image: url(/web/src/images/I-Do-Observe.png);
+    background-image: url(../images/I-Do-Observe.png);
 }
 
 .post__button-reflect {
     width: 94px;
-    background-image: url(/web/src/images/I-Do-Reflect.png);
+    background-image: url(../images/I-Do-Reflect.png);
 }
 
 .post__article {
@@ -316,25 +315,25 @@
 }
 
 .socials__icon_fb {
-    background-image: url(/web/src/images/facebook_w.png);
+    background-image: url(../images/facebook_w.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .socials__icon_tw {
-    background-image: url(/web/src/images/twitter_w.png);
+    background-image: url(../images/twitter_w.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .socials__icon_inst {
-    background-image: url(/web/src/images/instagram_w.png);
+    background-image: url(../images/instagram_w.png);
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .socials__icon_pin {
-    background-image: url(/web/src/images/pinterest_w.png);
+    background-image: url(../images/pinterest_w.png);
     background-repeat: no-repeat;
     background-position: center;
     
@@ -356,7 +355,7 @@
 }
 
 .search-icon_bottom {
-    background-image: url(/web/src/images/Search_w.png);
+    background-image: url(../images/Search_w.png);
     background-repeat: no-repeat;
     background-position: center;
 }
