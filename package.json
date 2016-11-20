@@ -1,7 +1,6 @@
 {
   "name": "web",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,12 @@
   "bugs": {
     "url": "https://github.com/nberkutov/web/issues"
   },
-  "homepage": "https://github.com/nberkutov/web#readme"
+  "homepage": "https://github.com/nberkutov/web#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-nunjucks": "^2.3.0"
+  },
+  "description": ""
 }
